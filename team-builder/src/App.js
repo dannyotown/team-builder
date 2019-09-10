@@ -7,10 +7,8 @@ import Body from './components/body';
 function App() {
   return (
     <div>
-    <NavBar></NavBar>
-    <Body>
-      
-    </Body>
+      <NavBar></NavBar>
+      <Body></Body>
     </div>
   );
 }
