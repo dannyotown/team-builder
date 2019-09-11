@@ -3,10 +3,10 @@ import './body.css';
 import Carder from './card';
 
 
-function Body() {
+function Body(props) {
     return (
       <div className="Body">
-        <Carder>
+        <Carder member={props.member} setMember={props.setMember}>
         </Carder>
       </div>
     );

@@ -1,0 +1,18 @@
+.teamBox{
+    background-color: white;
+    height: 275px;
+    border-radius: 10px;
+    margin-top: 5%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.box{
+    width: 33%;
+    border-radius: 10px;
+    border: grey 1px solid;
+    height: 49.5%;
+}
+p{
+    margin-top: 1.8%;
+    font-size:1rem;
+}
