@@ -17,7 +17,7 @@ function Form(props) {
         event.preventDefault();
     
         if (!member.name || !member.email || !member.role) {
-          alert("Please fill out both fields!");
+          alert("Please fill out all the fields!");
         } else {
           props.setMember([member, ...props.member]);
           resetForm();

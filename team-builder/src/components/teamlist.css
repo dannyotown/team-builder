@@ -1,5 +1,5 @@
 .teamBox{
-    background-color: white;
+    background-color: #235789;
     height: 275px;
     border-radius: 10px;
     margin-top: 5%;
@@ -7,12 +7,19 @@
     flex-flow: row wrap;
 }
 .box{
-    width: 33%;
+    width: 20%;
     border-radius: 10px;
     border: grey 1px solid;
+    background-color: white;
     height: 49.5%;
 }
 p{
     margin-top: 1.8%;
     font-size:1rem;
+    text-align:center;
+}
+
+#teamId{
+    text-decoration: underline;
+    font-weight: bold;
 }

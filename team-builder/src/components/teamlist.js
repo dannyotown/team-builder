@@ -7,9 +7,9 @@ function TeamList(props) {
         <div className="teamBox">
             {props.member.map((mem, index) =>
                 <div className="box">
-                    <p>Name:</p><p>{mem.name}</p>
-                    <p>Roll:</p><p>{mem.role}</p>
-                    <p>Email:</p><p>{mem.email}</p>
+                    <p id="teamId">Name</p><p>{mem.name}</p>
+                    <p id="teamId">Roll</p><p>{mem.role}</p>
+                    <p id="teamId">Email</p><p>{mem.email}</p>
                 </div>
             )}
         </div>
