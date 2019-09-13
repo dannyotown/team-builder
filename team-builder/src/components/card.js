@@ -6,8 +6,8 @@ import TeamList from './teamlist';
 function Carder(props) {
   return (
     <div className="Card">
-      <Form member={props.member} setMember={props.setMember}></Form>
-      <TeamList member={props.member}></TeamList>
+      <Form team={props.team} setTeam={props.setTeam}></Form>
+      <TeamList team={props.team}></TeamList>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import NavBar from './components/navbar';
 import Body from './components/body';
 
 function App() {
-  const [member, setMember] = useState([
+  const [team, setTeam] = useState([
     {
       name: "Tom Tony",
       email:
@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <NavBar></NavBar>
-      <Body member={member} setMember={setMember}></Body>
+      <Body team={team} setTeam={setTeam}></Body>
     </div>
   );
 }

@@ -19,7 +19,7 @@ function Form(props) {
         if (!member.name || !member.email || !member.role) {
           alert("Please fill out all the fields!");
         } else {
-          props.setMember([member, ...props.member]);
+          props.setTeam([member, ...props.team]);
           resetForm();
         }
     };

@@ -6,7 +6,7 @@ import Carder from './card';
 function Body(props) {
     return (
       <div className="Body">
-        <Carder member={props.member} setMember={props.setMember}>
+        <Carder team={props.team} setTeam={props.setTeam}>
         </Carder>
       </div>
     );
